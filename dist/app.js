@@ -54,4 +54,3 @@ function getnav() {
  document.querySelector("#nav_main45").innerHTML = htmls
 }
 window.onload = getnav();
-window.onload = act1();
