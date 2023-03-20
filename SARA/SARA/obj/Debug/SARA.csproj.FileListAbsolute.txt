@@ -1,0 +1,10 @@
+I:\ทดลอง\sssss\SARA\SARA\bin\Debug\SARA.exe.config
+I:\ทดลอง\sssss\SARA\SARA\bin\Debug\SARA.exe
+I:\ทดลอง\sssss\SARA\SARA\bin\Debug\SARA.pdb
+I:\ทดลอง\sssss\SARA\SARA\obj\Debug\SARA.csproj.AssemblyReference.cache
+I:\ทดลอง\sssss\SARA\SARA\obj\Debug\SARA.Form1.resources
+I:\ทดลอง\sssss\SARA\SARA\obj\Debug\SARA.Properties.Resources.resources
+I:\ทดลอง\sssss\SARA\SARA\obj\Debug\SARA.csproj.GenerateResource.cache
+I:\ทดลอง\sssss\SARA\SARA\obj\Debug\SARA.csproj.CoreCompileInputs.cache
+I:\ทดลอง\sssss\SARA\SARA\obj\Debug\SARA.exe
+I:\ทดลอง\sssss\SARA\SARA\obj\Debug\SARA.pdb
