@@ -62,6 +62,7 @@ namespace SARA
         {
             textBox2.Text += button6.Text;
             textBox2.Focus();
+
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
@@ -75,12 +76,14 @@ namespace SARA
                     button4.Text = "การศึกษา";
                     button5.Text = " ก็";
                     button6.Text = " กับ";
+                    textBox2.Text.Remove(0,1);
                     break;
                 case string a when a.EndsWith("ข"):
                     button1.Text = "ขณะที่";
                     button2.Text = "ขาด";
                     button3.Text = "ขยัน";
                     button4.Text = "ขยุม";
+                    textBox2.Text.Remove(0, 1);
                     break;
                 case string a when a.EndsWith("ค"):
                     button1.Text = "ควบ";
@@ -89,6 +92,7 @@ namespace SARA
                     button4.Text = "คง";
                     button5.Text = "คุณค่า";
                     button6.Text = "คุณธรรม";
+                    textBox2.Text.Remove(0, 1);
                     break;
                 case string a when a.EndsWith("แ"):
                     button1.Text = " และ";
@@ -97,6 +101,7 @@ namespace SARA
                     button4.Text = " แปล";
                     button5.Text = "และการพัฒนา";
                     button6.Text = "และความเข้าใจอันเป็นอย่างดี";
+                    textBox2.Text.Remove(0, 1);
                     break;
                 case string a when a.EndsWith("ด"):
                     button1.Text = " ด้วย";
@@ -105,6 +110,25 @@ namespace SARA
                     button4.Text = " ด้วยความเข้าใจ";
                     button5.Text = " ด้วยความเมตตา";
                     button6.Text = " ด้วยความเคารพ";
+                    textBox2.Text.Remove(0, 1);
+                    break; 
+                case string a when a.EndsWith("ดี"):
+                    button1.Text = "ดีมากๆเลย";
+                    button2.Text = "ดีที่สุด";
+                    button3.Text = "ดีกว่านี้หาไม่ได้อีกแล้ว";
+                    button4.Text = "ดีด้วยดีกว่า";
+                    button5.Text = "ดีที่สุดในโลกแล้ว";
+                    button6.Text = "ดีด้วยก็ดี จะได้ดีกลับ";
+                    textBox2.Text.Remove(0, 1);
+                    break; 
+                case string a when a.EndsWith("สุ"):
+                    button1.Text = "สุดยอด";
+                    button2.Text = "สุดติ่งกระดิ่งแมว";
+                    button3.Text = "สุดๆไปเลย เว้ย";
+                    button4.Text = "สุดหรือยัง";
+                    button5.Text = "สุภาพ";
+                    button6.Text = "สุกี้ ตี๋น้อย";
+                    textBox2.Text.Remove(0, 1);
                     break;
                 default:
                     break;
